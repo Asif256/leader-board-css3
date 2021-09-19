@@ -1,0 +1,90 @@
+
+.tittle{
+    color: #FFFFFF;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    text-align:right;
+}
+title.img{
+ 
+    Width:556.01px;
+    Height:438px;
+
+}
+.half-width img{
+    width: 45%;
+    float: right;
+    background-size: auto;      
+    padding-left: 10px;
+}
+
+
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0A0826; 
+    font-size: 48px;
+line-height: 60px;
+}
+/* p{
+    font-family: 'Poppins', sans-serif;
+   
+} */
+main{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* paragraph{
+    font-family: 'Poppins', sans-serif;
+    color: #6C6C6C;
+} */
+
+.player img{
+
+    width: 300px;
+    height: 256px;
+
+    
+   
+}
+.player{
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+/* position: absolute; */
+padding: 15px;
+margin-left: 15px;
+
+/* position: static;
+width: 330px;
+height: 474px;
+    */
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap:30px;
+    /* margin-top: 20px; */
+    place-items: center; 
+}
+.pic img{
+    width: 567px;
+height: 427px;
+margin-top: 70px;
+justify-content: right;
+}
+
+.copa{
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    align-items: center;
+    grid-gap: 50px;
+    margin-left: 15px;   
+    margin-top: 60px;
+}
